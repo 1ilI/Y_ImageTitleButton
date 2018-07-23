@@ -8,18 +8,18 @@
 
 #import <UIKit/UIKit.h>
 typedef enum {
-    ImageTopTitleBottom,
-    TitleTopImageBottom,
-    ImageLeftTitleRight,
-    TitleLeftImageRight,
+    ImageTopTitleBottom,        //图上字下
+    TitleTopImageBottom,        //图下字上
+    ImageLeftTitleRight,        //图左字右
+    TitleLeftImageRight,        //图右字左
     
-    ImageLeftTitleRightLeft,
-    ImageLeftTitleRightCenter,
+    ImageLeftTitleRightLeft,    //图左字右 字靠右
+    ImageLeftTitleRightCenter,  //图左字右 字居中
     
-    TitleLeftImageRightCenter,
-    TitleLeftImageRightLeft,
+    TitleLeftImageRightCenter,  //图右字左 字居中
+    TitleLeftImageRightLeft,    //图右字左 图靠左
     
-    FitTitleLeftImageRight,
+    FitTitleLeftImageRight,     //图右字左适应
 }ButtonStyle;
 
 typedef void (^ButtonAction)(UIButton *sender);
