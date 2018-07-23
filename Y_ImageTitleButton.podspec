@@ -10,18 +10,18 @@ Pod::Spec.new do |s|
 	#名称
   s.name         = "Y_ImageTitleButton"
   #版本
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   #简介
   s.summary      = "创建带有图片和标题的按钮"
   #详介
   s.description  = <<-DESC
-                   创建一个带有图片和标题的按钮
+                   根据自定义的枚举类型，快速创建一个带有图片和标题的按钮
                    DESC
 
   #首页
   s.homepage     = "https://github.com/1ilI/Y_ImageTitleButton"
   #截图
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://raw.githubusercontent.com/1ilI/Y_ImageTitleButton/master/ImageTitleButtonExample.gif"
 
   #开源协议
   s.license      = { :type => "MIT", :file => "LICENSE" }
